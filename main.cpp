@@ -1,10 +1,10 @@
-#include "Vue.h"
+#include "Vu.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Vue w;
+    Vu w;
     w.show();
     return a.exec();
 }
